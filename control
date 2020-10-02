@@ -1,6 +1,6 @@
 Package: pulseaudio-steelseries-arctis-5
-Version: 0.4
-Maintainer: Eli xx <elias222@protonmail.com>
+Version: 0.4.5
+Maintainer: Eli n/a <elias222@protonmail.com>
 Homepage: https://github.com/hermesboo/SSAPA
 Architecture: all
 Depends: pulseaudio, udev
