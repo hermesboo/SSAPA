@@ -1,18 +1,28 @@
-# SteelSeries Arctis 5 pulseaudio profile
+# SSAPA
+Fork of DemonTPx's profile for pulseaudio made for the Steelseries Arctis 5.
+This one has an install script to copy the files for those who don't have Debian or Debian-based distros and are extremely lazy.
 
-The SteelSeries Arctis 5 is a gaming headset which has two stereo audio outputs. One for voice chat and one for the rest of the sound. It can be mixed between with a physical knob.
+If you're here out of curiosity, the SSA5/7 has 2 digital inputs but 1 physical, but (S)ALSA and Pulseaudio only enable 1 of them, so this profile adds the ability to get both inputs again and control them with the knob that the headsets come with.
 
-By default, pulseaudio only enables the voice chat output. This profile enables the second (game) output and the udev rule makes sure this profile is used when plugging in the device.
-
+tl;dr Support for the Steelseries Arctis on linux
 ## Installing
 
-### Ubuntu / Linux Mint
+Make install.sh executable by running chmod +x ~path/to/the/folder/with/files/install.sh or go through properties of the file and make it executable through your favourite file manager.
 
-Download and install:
+Then run it as sudo and you're set.
 
-- [pulseaudio-steelseries-arctis-5_0.3_all.deb](https://github.com/DemonTPx/steelseries-arctis-5-pulseaudio-profile/releases/download/0.3/pulseaudio-steelseries-arctis-5_0.3_all.deb)
+Then just run it through the terminal or w/e and after that restart pulseaudio
 
-After that, plug in the device to see if it works.
+    pulseaudio -k
+    pulseaudio --start
+
+### Void Linux 
+Void linux users will need to install pavucontrol sadly.
+
+After that just use the script.
+
+### Other non-systemd distros
+I dont know exactly what other distros without systemd have to do but im assuming something similar, if you know please send me a message!
 
 ### From source
 
@@ -28,3 +38,7 @@ Restart pulseaudio:
     pulseaudio --start
 
 After that, plug in the device to see if it works.
+
+### Debian and derivatives
+
+- [If you want to install on all Debian/Debian based distros go here.](https://github.com/hermesboo/steelseries-arctis-5-pulseaudio-profile)
