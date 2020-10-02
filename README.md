@@ -1,6 +1,6 @@
 # SSAPA
 Fork of DemonTPx's profile for pulseaudio made for the Steelseries Arctis 5.
-This one has an install script to copy the files for those who don't have Debian or Debian-based distros and are extremely lazy.
+This one has an install script to copy the files for those who don't have Debian or Debian-based distros and/or are extremely lazy.
 
 If you're here out of curiosity, the SSA5/7 has 2 digital inputs but 1 physical, but (S)ALSA and Pulseaudio only enable 1 of them, so this profile adds the ability to get both inputs again and control them with the knob that the headsets come with.
 
