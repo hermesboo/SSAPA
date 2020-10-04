@@ -13,7 +13,7 @@ Make install.sh executable by running chmod +x ~path/to/the/folder/with/files/in
 
 Then run it as sudo and you're set.
 
-Or just do 'sudo sh ~path/to/the/folder/with/files/install.sh'
+Or just do `sudo sh ~path/to/the/folder/with/files/install.sh`
 
 Then just run it through the terminal or w/e and after that restart pulseaudio
 
